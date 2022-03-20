@@ -1,6 +1,8 @@
+@import 'src/styles/colors';
+
 hr {
     max-width: 1332px;
     margin-right: 6px;
     border: none;
-    border-top: 1px solid #66B3A6;
+    border-top: 1px solid $green;
 }

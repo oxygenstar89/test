@@ -1,3 +1,5 @@
+@import 'src/styles/colors';
+
 .today {
     display: flex;
     justify-content: center;
@@ -12,7 +14,7 @@
         margin-bottom: 9px;
         font-size: 38px;
         line-height: 45px;
-        color: #828282;
+        color: $gray-3;
     }
 
     img {
@@ -23,7 +25,7 @@
     .dark-text {
         font-size: 22px;
         line-height: 26px;
-        color: #000000;
+        color: $black;
         margin-bottom: 10px;
         padding-right: 10px;
     }
@@ -31,7 +33,7 @@
     .gray-text {
         font-size: 19px;
         line-height: 22px;
-        color: #A3A3A3;
+        color: $gray-light;
         margin-bottom: 4px;
         padding-right: 6px;
     }
