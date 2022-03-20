@@ -1,0 +1,21 @@
+<div 
+    *ngIf="!isLoading && !isError"
+    class="container"
+>
+    <app-today 
+        [cityName]="currentCity.name" 
+        [currentDayData]="todayData">
+    </app-today>
+    <hr/>
+    <app-week [weekData]="nextWeekData"></app-week>
+</div>
+<div
+    *ngIf="isLoading"
+>
+    <span>Loading Data...</span>
+</div>
+<div
+    *ngIf="isError"
+>
+    <span>There was some error, please refresh the page.</span>
+</div>

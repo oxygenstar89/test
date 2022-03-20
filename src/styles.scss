@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background-color: #FAFAFA;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, nav, span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1351px;
+    margin: 0 auto;
+}

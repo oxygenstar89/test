@@ -1,0 +1,12 @@
+<div class="wrapper">
+    <div *ngFor="let day of weekData" class="single-day">
+        <h4>{{day.dayName}}</h4>
+        <img src="assets/rain.png" alt="rain">
+        <span class="dark-text">
+            {{day.minTemp}}-{{day.maxTemp}} °C
+        </span>
+        <span class="dark-text">
+            {{day.windSpeedAverage}}m/s
+        </span>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 47px;
+    width: 87.9%;
+    margin: 0 auto;
+    padding-left: 7px;
+
+    .single-day {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            font-size: 22px;
+            line-height: 26px;
+            color: #000000;
+            margin-top: 0;
+            margin-bottom: 92px;
+        }
+
+        img {
+            width: 64px;
+            height: auto;
+            margin-bottom: 67px;
+            display: block;
+            padding-left: 8px;
+        }
+
+        .dark-text {
+            font-size: 22px;
+            line-height: 26px;
+            color: #000000;
+            margin-bottom: 25px;
+            padding-left: 12px;
+        }
+    }
+}
+
+

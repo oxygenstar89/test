@@ -1,0 +1,15 @@
+<header>
+    <div class="container">
+        <h1>Weather</h1>
+        <nav>
+            <ul>
+                <li *ngFor="let city of weather.cities; let i = index">
+                    <button
+                        [ngClass]="{'active': activeIndex === i}"
+                        (click)="switchCity(i)"
+                    >{{city.name}}</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
